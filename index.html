@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Тестовое задание</title>
+</head>
+
+<body>
+
+    <label>
+        <select class="number">
+            <option value="1">1</option>
+            <option value="5">5</option>
+            <option value="10" selected>10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+        </select>
+        <select class="sort" id="select">
+            <option value="name">По названию</option>
+            <option value="price">По цене</option>
+            <option value="custom" disabled>Пользовательская</option>
+        </select>
+    </label>
+
+    <main>
+        <ul id="ul">
+        </ul>
+    </main>
+    <script src="scripts/listCreation.js"></script>
+    <script src="scripts/dragnDrop.js"></script>
+
+</body>
+
+</html>
